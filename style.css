@@ -4,6 +4,10 @@ nav {
 .btn {
    background-color: #fe0000;
 }
+.slogan {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
 .search {
    box-shadow: 0px 3px 4px rgba(169, 169, 173, 0.5);
 }
@@ -21,6 +25,10 @@ nav {
 
 
 /* testimonial */
+.komen {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
 #ulasan {    
     background: rgb(240, 226, 105);
     font-family: montserrat;
