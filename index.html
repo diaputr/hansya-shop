@@ -5,14 +5,14 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-         crossorigin="anonymous"
-         referrerpolicy="no-referrer"
-      />
+      <script src="https://kit.fontawesome.com/fc166c3022.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
       <link rel="stylesheet" href="style.css" />
+      <!--  -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
       <title>Document</title>
    </head>
    <body>
@@ -29,19 +29,19 @@
                      <a class="nav-link active" aria-current="page" href="#">Tentang</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active" href="#">Audio Mobil</a>
+                     <a class="nav-link active" href="#pilihan">Audio Mobil</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active" href="#">Produk Aksesoris</a>
+                     <a class="nav-link active" href="#produk">Produk Aksesoris</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active" href="#">Ulasan</a>
+                     <a class="nav-link active" href="#ulasan">Ulasan</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                      <h2 class="text-light">|</h2>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
-                     <a class="nav-link active text-warning" href="#">Pesan</a>
+                     <a class="nav-link active text-warning" href="https://wa.me/message/OD6VRYUVNBMPM1">Pesan</a>
                   </li>
                </ul>
             </div>
@@ -49,32 +49,380 @@
       </nav>
       <!-- nav end -->
       <!-- show case -->
-      <section class="show case  text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <section class="showcase text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
          <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                <div>
-                  <h1>PEMASANGAN</h1>
-                  <h1>AUDIO &</h1>
-                  <h1>AKSESORIS <span class="text-danger text-decoration-underline">MOBIL</span></h1>
-                  
-                  <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, neque!</P>
+                  <h1 class="fw-bold">PEMASANGAN</h1>
+                  <h1 class="fw-bold">AUDIO &</h1>
+                  <h1 class="fw-bold">AKSESORIS <span class="text-danger text-decoration-underline">MOBIL</span></h1>
+
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, neque!</p>
                </div>
-               <img src="src/img/mobil.jpg" class="img-fluid w-50 d-none d-sm-block" />
+               <img src="src/img/honda-civic-hatchback-color-185372.webp" class="img-fluid w-50 d-none d-sm-block" />
             </div>
-
-            <!-- Fitur Search -->
-      <div class="row justify-content-center mt-3">
-         <div class="col-md-7">
-        <div class="search input-group mb-3 mt-5">
-      <input type="text" class="form-control p-3" placeholder="Ketik sesuatu..." name="search">
-         <button class="btn btn-danger p-4 fw-bold" type="submit" id="button-addon2">Cari</button>
-      </div>
+            <!-- search -->
+            <div class="row justify-content-center mt-3">
+               <div class="col-md-7">
+                  <div class="search input-group mb-3 mt-5">
+                     <input type="text" class="form-control p-3" placeholder="Ketik sesuatu..." name="search" />
+                     <a class="btn btn-danger p-4 fw-bold" href="katalog.html">Cari</a>
+                  </div>
+               </div>
             </div>
-         </div>
-
+            <!-- search -->
          </div>
       </section>
       <!-- end show case -->
+      <!-- penawaran -->
+      <section id="penawaran" class="penawaran">
+         <div class="container">
+            <div class="row text-center">
+               <div class="col-md-12 col-sm-6">
+                  <h2 class="fw-bold">APA YANG DITAWARKAN HANSYA <span class="text-danger text-decoration-underline">Shop</span>?</h2>
+               </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center pt-5">
+               <div class="col-md-4">
+                  <i class="fa fa-car fa-2x" style="color: red"></i>
+                  <h4 class="pt-5">Audio & Aksesoris Mobil</h4>
+                  <p>Lorem ipsum dolor sit amet.</p>
+               </div>
+               <div class="col-md-4">
+                  <i class="fa fa-house-user fa-2x" style="color: red"></i>
+                  <h4 class="pt-5">Home Service</h4>
+                  <p>Khusus area Tabanan, Denpasar, Bali</p>
+               </div>
+               <div class="col-md-4">
+                  <i class="fa fa-location-dot fa-2x" style="color: red"></i>
+                  <h4 class="pt-5">Alarm & Central lock</h4>
+                  <p>Lorem ipsum dolor sit amet.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- penawaran end -->
+      <!-- pilihan -->
+      <section id="pilihan" class="container show case text-dark p-5 p-lg-0 pt-lg-5">
+         <div class="row pb-5">
+            <div class="d-sm-flex align-items-center justify-content-md-evenly">
+               <div class="col-md-6 img">
+                  <img src="src/img/Featured_Head-Unit-Android-Terbaik-Hiburan-Canggih-Kekinian.jpg" class="img w-100 shadow-none d-none d-sm-block img-thumbnail" />
+               </div>
+               <div class="col-md-6 ms-5">
+                  <h3 class="fw-bold">Berbagai Pilihan</h3>
+                  <h3 class="fw-bold"><span class="text-danger">Audio</span> & <span class="text-danger">Aksesoris</span>Mobil</h3>
+                  <div class="container">
+                     <div class="row pt-3">
+                        <div class="col-md-12 d-sm-flex align-items-center justify-content-start gap-5">
+                           <i class="col-1 fa-brands fa-android fa-2x"></i>
+                           <div class="col-11">
+                              <h6>Android Auto</h6>
+                           </div>
+                        </div>
+                        <div class="col-md-12 d-sm-flex align-items-center justify-content-start gap-5">
+                           <i class="col-1 bi bi-broadcast fa-2x"></i>
+                           <div class="col-11">
+                              <h6>Car Speaker</h6>
+                           </div>
+                        </div>
+                        <div class="col-md-12 d-sm-flex align-items-center justify-content-start gap-5">
+                           <i class="col-1 fa-solid fa-location-dot fa-2x"></i>
+                           <div class="col-11">
+                              <h6>Multimedia/GPS Navigation</h6>
+                           </div>
+                        </div>
+                        <div class="col-md-12 d-sm-flex align-items-center justify-content-start gap-5">
+                           <i class="col-1 bi-speaker-fill fa-2x"></i>
+                           <div class="col-11">
+                              <h6>Subwoofers</h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- pilihan end -->
+      <!-- produk favorit -->
+      <section id="produk" class="pt-5 pb-5 justify-content-center">
+         <div class="container text-center text-black">
+            <h3 class="fw-bold">TEMUKAN</h3>
+            <h3 class="fw-bold">Produk Terfavorit</h3>
+         </div>
+         <div class="row row-cols-1 row-cols-md-4 g-3 m-4 justify-content-center">
+            <div class="col">
+               <div class="card">
+                  <img src="/src/img/Kamera_Mundur_Orca.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                     <h5 class="card-title">Camera Mundur Orca</h5>
+                     <p class="card-text">Barang diterima dalam keadaan baru dan sudah termasuk ongkos pasang</p>
+                     <a href="https://wa.me/message/OD6VRYUVNBMPM1" class="btn btn-success" style="width: 100%">Tanya Via Whatsapp</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="/src/img/Antena_Radio_SiripHiu.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                     <h5 class="card-title">Antena Radio Sirip Hiu</h5>
+                     <p class="card-text">Klik tombol dibawah untuk info selengkapnya dari HANSYA SHOP</p>
+                     <a href="https://wa.me/message/OD6VRYUVNBMPM1" class="btn btn-success" style="width: 100%">Tanya Via Whatsapp</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="src/img/Android_Sansui_9_ram2.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                     <h5 class="card-title">Android Sansui 9"</h5>
+                     <span class="card-text"
+                        >RAM 2/32 GB
+                        <p>Klik tombol dibawah untuk info selanjutnya dari HANSYA SHOP</p>
+                     </span>
+                     <a href="https://wa.me/message/OD6VRYUVNBMPM1" class="btn btn-success" style="width: 100%">Tanya Via Whatsapp</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- katalog -->
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <a class="btn btn-danger p-4 fw-bold" href="katalog.html">Lihat Katalog</a>
+            </div>
+         </div>
+         <!-- katalog -->
+      </section>
+      <!-- produk favorit end -->
+      <!-- ulasan -->
+      <section id="ulasan" class="ulasan">
+         <div class="container pt-lg-5 pt-md-5 pb-md-5">
+            <br />
+            <div class="col-md-12 text-center col-sm-6 text-sm-center">
+               <h3 class="section-header">Ulasan Pelanggan Setia</h3>
+               <h3 class="fw-bold">HANSYA <span class="text-decoration-underline text-danger">Shop</span></h3>
+            </div>
+            <div class="container">
+               <div class="testimonials">
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="single-item">
+                              <div class="row justify-content-center">
+                                 <!-- <div class="col-md-5">
+                                    <div class="profile">
+                                       <div class="img-area">
+                                          <img src="img/1.jpg" alt="" />
+                                       </div>
+                                       <div class="bio">
+                                          <h2>Dave Wood</h2>
+                                          <h4>Web Developer</h4>
+                                       </div>
+                                    </div>
+                                 </div> -->
+                                 <div class="col-md-6 col-sm-3">
+                                    <div class="content">
+                                       <p>
+                                          <span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam,
+                                          minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!
+                                       </p>
+                                       <!-- <p class="socials">
+                                          <i class="fa fa-twitter"></i>
+                                          <i class="fa fa-behance"></i>
+                                          <i class="fa fa-pinterest"></i>
+                                          <i class="fa fa-dribbble"></i>
+                                          <i class="fa fa-vimeo"></i>
+                                       </p> -->
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="single-item">
+                              <div class="row justify-content-center">
+                                 <!-- <div class="col-md-5">
+                                    <div class="profile">
+                                       <div class="img-area">
+                                          <img src="img/2.jpg" alt="" />
+                                       </div>
+                                       <div class="bio">
+                                          <h2>Martin Guptill</h2>
+                                          <h4>UI/UX Designer</h4>
+                                       </div>
+                                    </div>
+                                 </div> -->
+                                 <div class="col-md-6 col-sm-3">
+                                    <div class="content">
+                                       <p>
+                                          <span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam,
+                                          minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!
+                                       </p>
+                                       <!-- <p class="socials">
+                                          <i class="fa fa-twitter"></i>
+                                          <i class="fa fa-behance"></i>
+                                          <i class="fa fa-pinterest"></i>
+                                          <i class="fa fa-dribbble"></i>
+                                          <i class="fa fa-vimeo"></i>
+                                       </p> -->
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="single-item">
+                              <div class="row justify-content-center">
+                                 <!-- <div class="col-md-5">
+                                    <div class="profile">
+                                       <div class="img-area">
+                                          <img src="img/3.jpg" alt="" />
+                                       </div>
+                                       <div class="bio">
+                                          <h2>Stephen Jones</h2>
+                                          <h4>Graphic Designer</h4>
+                                       </div>
+                                    </div>
+                                 </div> -->
+                                 <div class="col-md-6 col-sm-3">
+                                    <div class="content">
+                                       <p>
+                                          <span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam,
+                                          minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!
+                                       </p>
+                                       <!-- <p class="socials">
+                                          <i class="fa fa-twitter"></i>
+                                          <i class="fa fa-behance"></i>
+                                          <i class="fa fa-pinterest"></i>
+                                          <i class="fa fa-dribbble"></i>
+                                          <i class="fa fa-vimeo"></i>
+                                       </p> -->
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ulasan end -->
+      <!-- footer -->
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+      <div class="container-fluid bg-black">
+         <footer class="bg-black text-center text-lg-start text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+               <!--Grid row-->
+               <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <div class="bg-black rounded-circle shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px">
+                        <img src="src/img/logo.jpg" height="70" alt="" loading="lazy" />
+                     </div>
+
+                     <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, dolorum?</p>
+
+                     <ul class="list-unstyled d-flex flex-row justify-content-center">
+                        <li>
+                           <a class="text-white px-2" href="#!">
+                              <i class="fab fa-facebook-square"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="text-white px-2" href="#!">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </li>
+                        <!-- <li>
+                           <a class="text-white ps-2" href="#!">
+                              <i class="fab fa-youtube"></i>
+                           </a>
+                        </li> -->
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase mb-4">Product</h5>
+                     <ul class="list-unstyled">
+                        <li class="mb-2">
+                           <a href="#!" class="text-decoration-none text-white">Android Auto</a>
+                        </li>
+                        <li class="mb-2">
+                           <a href="#!" class="text-decoration-none text-white">Car Speaker</a>
+                        </li>
+                        <li class="mb-2">
+                           <a href="#!" class="text-decoration-none text-white">Multimedia/GPS Navigation</a>
+                        </li>
+                        <li class="mb-2">
+                           <a href="#!" class="text-decoration-none text-white">subwoofers</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase mb-4">Importand Links</h5>
+
+                     <ul class="list-unstyled">
+                        <li class="mb-2">
+                           <a href="https://www.olx.co.id/profile/29411566" class="text-white">OLX</a>
+                        </li>
+                        <li class="mb-2">
+                           <a href="https://wa.me/message/OD6VRYUVNBMPM1" class="text-white">Whatsapp</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase mb-4">Contact</h5>
+
+                     <ul class="list-unstyled">
+                        <li>
+                           <p><i class="fas fa-map-marker-alt pe-2"></i>Kab. Tabanan, Bali</p>
+                        </li>
+                        <li>
+                           <p><i class="fas fa-phone pe-2"></i>+62 87843336065</p>
+                        </li>
+                        <!-- <li>
+                           <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@example.com</p>
+                        </li> -->
+                     </ul>
+                  </div>
+                  <!--Grid column-->
+               </div>
+               <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+               © 2020 Copyright:
+               <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+         </footer>
+      </div>
+      <!-- End of .container -->
+      <!-- footer end -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
    </body>
 </html>
